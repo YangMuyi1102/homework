@@ -1,0 +1,18 @@
+---
+about:
+  template: jolla
+  id: Yang Muyi
+  image: "img/profile.png"
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/YangMuyi1102/homework
+
+---
+
+::: {#about-block}
+:::
+
+# Welcome to my website!
+
+```{=html}
