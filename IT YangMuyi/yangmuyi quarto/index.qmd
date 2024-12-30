@@ -1,0 +1,47 @@
+---
+title: "yangmuyi"
+---
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作业跳转</title>
+    <style>
+        .button {
+            display: block;
+            width: 100px;
+            padding: 10px;
+            margin: 10px 0;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            color: white;
+            background-color: blue;
+            border-radius: 5px;
+        }
+
+        .button:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>作业选择</h1>
+    <a href="http://example.com/网页1" class="button">作业1</a>
+    <a href="http://example.com/网页2" class="button">作业2</a>
+</body>
+</html>
+
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+
